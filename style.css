@@ -405,8 +405,7 @@ i {
     }
 
     .div11 {
-        padding-right: 10%;
-        gap: 3rem;
+     gap: 3rem;
     }
 }
 
@@ -523,8 +522,11 @@ i {
 }
 
 @media(max-width:500px) {
+    .div2{
+        gap: 2rem;
+    }
     .advantages{
-        margin: 10% 0;
+        margin: 10% 57;
     }
     .about .div1 {
         margin-left: 10%;
@@ -543,7 +545,4 @@ i {
         height: 65vh;
     }
 
-    .div11 {
-        padding-right: 12%;
-    }
 }
