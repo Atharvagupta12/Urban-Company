@@ -191,4 +191,14 @@ gap: 2rem;
     .kitchen h1{
         font-size: 35px;
     }
+    .kitchen p{
+        display: none;
+    }
+    .button{
+        padding: 7px 15px;
+    }
+    nav{
+        padding:3% 2%;
+        gap: 1rem;
+    }
 }

@@ -544,5 +544,7 @@ i {
         width: 90%;
         height: 65vh;
     }
-
+.content h1{
+    font-size: 55px;
+}
 }
