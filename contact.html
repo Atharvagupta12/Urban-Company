@@ -16,16 +16,16 @@
     <link rel="stylesheet" href="contact.css">
     <body>
         <section class="contact">
-
-            <h1>WE WOULD LOVE TO HEAR IT FROM YOU</h1>
+<img src="./assets/logo2.png" style="height: 10vh;" alt="">
+            <h1> WE WOULD LOVE TO HEAR IT FROM YOU</h1>
 
             <div class="container1">
-                <form action="page">
-                    <label for="fname">Name</label>
+                <form >
+                    <label >Name</label>
                     <input type="text" id="fname" name="firstname"
                         placeholder="Your name..">
 
-                    <label for="Number">Phone number</label>
+                    <label >Phone number</label>
                     <input type="number" id="number" name="number"
                         placeholder="Enter your number..">
 
@@ -35,7 +35,7 @@
 
                     <label for="subject">Message</label>
                     <textarea id="subject" name="subject" placeholder="Any Message or Feedback from You.." style="height:200px"></textarea>
-                    <input type="submit" value="Submit">
+                    <button onClick="hello()"><a  href="#">Submit</a></button>
                     <button><a href="./index.html">Back</a></button>
                 </form>
                 <div class="container2">
@@ -43,11 +43,16 @@
                         src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                     <lottie-player
                         src="https://assets6.lottiefiles.com/packages/lf20_tqivvrjw.json"
-                        background="transparent" speed="0.7" style="width:
-                        500px;
+                        background="transparent" speed="1" style="width:
+                        600px;
                         height: 600px;" loop autoplay></lottie-player>
                 </div>
             </div>
         </section>
+        <script>
+            function hello(){
+                alert("submitted form successfully");
+              }
+        </script>
     </body>
 </html>
