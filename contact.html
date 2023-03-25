@@ -15,17 +15,42 @@
         rel="stylesheet">
     <link rel="stylesheet" href="contact.css">
     <body>
+        <section class="landing">
+            <nav>
+                <div class="logo">
+                    <img src="./Assets/logo2.png" style="border-radius: 20px;"
+                        alt="">
+                  
+                </div>
+                <div class="navlinks">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="./design.html">Design</a></li>
+                </div>
+                <div class="button">
+                    <button><a href="./contact.html">Contact us</a></button>
+                </div>
+            </nav>
+            <div class="content" data-aos="fade-up">
+                <h1>Your Dream Home<br>is waiting</h1>
+                <br>
+                <h3>Stunning interior design services, now within reach.</h3>
+                <br>
+               </div>
+        </section>
+
         <section class="contact">
-<img src="./Assets/logo2.png" style="height: 10vh;" alt="">
-            <h1> WE WOULD LOVE TO HEAR IT FROM YOU</h1>
+           <h1> WE WOULD LOVE TO HEAR IT FROM YOU</h1>
 
             <div class="container1">
-                <form >
-                    <label >Name</label>
+                <form>
+                    <label>Name</label>
                     <input type="text" id="fname" name="firstname"
                         placeholder="Your name..">
 
-                    <label >Phone number</label>
+                    <label>Phone number</label>
                     <input type="number" id="number" name="number"
                         placeholder="Enter your number..">
 
@@ -35,8 +60,8 @@
 
                     <label for="subject">Message</label>
                     <textarea id="subject" name="subject" placeholder="Any Message or Feedback from You.." style="height:200px"></textarea>
-                    <button onClick="hello()"><a  href="#">Submit</a></button>
-                    <button><a href="index.html">Back</a></button>
+                  <div class="button1">  <button onClick="hello()"><a href="#">Submit</a></button> </div> 
+                 <div class="button1">   <button><a href="index.html">Back</a></button></div>
                 </form>
                 <div class="container2">
                     <script
